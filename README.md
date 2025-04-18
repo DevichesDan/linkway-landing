@@ -23,8 +23,17 @@
 
 ## 📦 Structure du projet
 
-index.html → Interface de base style.css → Mise en page simple et moderne script.js → Logique de géolocalisation
-
+linkway-landing/
+├── index.html         ← App principale (accès sécurisé)
+├── accueil.html       ← Page de présentation + vision (page d’entrée)
+├── login.html         ← Connexion
+├── signup.html        ← Inscription
+├── style.css
+├── script.js
+├── auth.js            ← Gestion connexion / inscription
+├── README.md
+└── /assets
+    └── logo.png
 
 ---
 
